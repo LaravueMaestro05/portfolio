@@ -3,6 +3,7 @@ import { themeContext } from '../../Context';
 import './Card.css';
 
 const Card = ({ emoji, heading, content }) => {
+  const transition = { duration: 2, type: 'spring' };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 

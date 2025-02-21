@@ -3,6 +3,7 @@ import { themeContext } from '../../Context';
 import './FloatingDiv.css';
 
 const FloatingDiv = ({ image, txt1, txt2 }) => {
+  const transition = { duration: 2, type: 'spring' };
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 

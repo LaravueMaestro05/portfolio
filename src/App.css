@@ -16,7 +16,7 @@
   color: var(--black);
 }
 
-.button{filter: blur(72px);
+.button{
   z-index: -9;
   border-radius: 34px;
   border: none;
