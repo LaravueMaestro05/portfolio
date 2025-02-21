@@ -2,10 +2,6 @@ import React from 'react';
 import Toggle from '../Toggle/Toggle';
 import './Navbar.css';
 import { Link } from 'react-scroll';
-import Services from '../Services/Services';
-import Experience from '../Experience/Experience';
-import Portfolio from '../Portfolio/Portfolio';
-import Testimonials from '../Testimonials/Testimonials';
 
 const Navbar = () => {
   return (
