@@ -86,7 +86,7 @@ const Intro = () => {
           />
         </motion.div>
         {/* blur divs */}
-        <div
+        {/* <div
           className="blur"
           style={{
             background: '#C1F5FF',
@@ -95,7 +95,7 @@ const Intro = () => {
             left: '-9rem',
             width: '21rem'
           }}
-        ></div>
+        ></div> */}
       </div>
     </div>
   );
