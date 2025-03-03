@@ -20,10 +20,9 @@ const Works = () => {
         </span>
         <span>Brands & Clients</span>
         <span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet
-          accusamus
-          <br /> placeat libero excepturi nesciunt.
-          <br /> placeat libero excepturi nesciunt.
+          Worked on Team Sava and Fluent stream as a Junior Frontend developer
+          and Full Stack developer.
+          <br /> And I worked on Upwork, Shopify as a Freelancer.
         </span>
         <button className="button s-button">Hire me</button>
         <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>

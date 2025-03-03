@@ -40,6 +40,15 @@
   border-radius: 19px;
 }
 
+.project-title{
+  color: orange;
+}
+
+.project-detail{
+  max-width: 20rem;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 480px) {
   .portfolio {
     height: 40vh;
