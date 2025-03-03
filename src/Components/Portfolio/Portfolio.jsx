@@ -3,11 +3,9 @@ import './Portfolio.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Jleague from '../../img/Jleague.png';
 import Shoptobi from '../../img/Shoptobi.png';
-import Ecommerce from '../../img/ecommerce.png';
-import MusicApp from '../../img/musicapp.png';
 import Testfiesta from '../../img/Testfiesta.png';
-import Phanox from '../../img/Phanox.png';
-import Singitronic from '../../img/Singitronic.png';
+import Hockey from '../../img/Hockey.png';
+import Educationcms from '../../img/Educationcms.png';
 
 import 'swiper/css';
 import { themeContext } from '../../Context';
@@ -30,25 +28,19 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
+          <img src={Educationcms} alt="Educationcms" />
+        </SwiperSlide>
+        <SwiperSlide>
           <img src={Shoptobi} alt="Shoptobi" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Jleague} alt="Jleague" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Phanox} alt="Phanox" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Singitronic} alt="Singitronic" />
-        </SwiperSlide>
-        <SwiperSlide>
           <img src={Testfiesta} alt="Testfiesta" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="Ecommerce" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="MusicApp" />
+          <img src={Hockey} alt="Hockey" />
         </SwiperSlide>
       </Swiper>
     </div>
