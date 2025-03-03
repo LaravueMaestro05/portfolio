@@ -131,16 +131,46 @@ const Portfolio = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="project-title">JLeague Social website</div>
           <img src={Jleague} alt="Jleague" />
+          <div className="project-detail">
+            Developed the Social website in Japan soccer matchs. This included
+            the real time video watch and news in session status. I used Django
+            for the frontend and backend development and AJAX technology for the
+            real time update.
+          </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="project-title">PWA Scheduling App</div>
           <img src={Schduling} alt="Schduling" />
+          <div className="project-detail">
+            In this latest gig, I jumped in as the Full-Stack Developer to build
+            a PWA Scheduling App. I used JavaScript, Vue, and Vuetify to create
+            a smooth, responsive front-end that works like a charm on any
+            device, while powering the backend with PHP, and Laravel to handle
+            everything from user data to quick API integrations.
+          </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="project-title">Risk management system</div>
           <img src={Testfiesta} alt="Testfiesta" />
+          <div className="project-detail">
+            This is online risk management system that users can test and manage
+            the risk of their own project and repository. Delivered full stack
+            solution with Laravel, Vue, Vuetify for backend and frontend and
+            also utilized the Redis for the caching strategy
+          </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="project-title">Hockey Tournament Company website</div>
           <img src={Hockey} alt="Hockey" />
+          <div className="project-detail">
+            This is one of my most recent projects and I was acting as a
+            full-stack developer here - responsible for both frontend and
+            backend parts. It was basically a complete overhaul of the client's
+            old website - the team and I implemented the design provided and
+            migrated the platform to a more modern tech stack and architecture.
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
